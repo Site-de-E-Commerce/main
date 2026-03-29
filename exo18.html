@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <section id="caracteristique">
+            <h2>Caracteristique Technique</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Caracteristique</th>
+                        <th>Delais</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Matiere</td>
+                        <td>100% Coton</td>
+                    </tr>
+                    <tr>
+                        <td>Couleurs disponibles</td>
+                        <td>Blanc, Noir,Bleu,Rouge, Jaune...</td>
+                    </tr>
+                    <tr>
+                        <td>Poits</td>
+                        <td>180g</td>
+                    </tr>
+                    <tr>
+                        <td>Entretien </td>
+                        <td>Lavable en machine a 40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="achat">
+            <h2>Commander</h2>
+
+            <form action="#" method="post">
+
+                <label for="quanlite">Quantite :</label><br>
+                <input type="number" id="quanlite" name="quanlite" min="1" max="10 " value="1" required><br>
+
+
+                <label for="couleur">Couleur :</label><br>
+                <select name="couleur" id="couleur" required>
+                    <option value="">hoisissez une couleur</option>
+                    <option value="blanc">Blanc</option>
+                    <option value="noir">Noir</option>
+                    <option value="bleu">Bleu</option>
+                    <option value="rouge">Rouge</option>
+                    <option value="jaune">Jaune</option>
+
+                </select><br><br>
+
+                <label for="taille" name="taille" requered >
+                    <option value="">Choisissez une taille</option>
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                    <option value="xxl">XXL</option>
+                </label><br><br>
+
+                <label for="">option :</label><br>
+                <input type="checkbox" id="cadeau" name="cadeau" value="oui">
+                <label for="cadeau">Emballage cadeau</label><br>
+
+                <input type="checkbox" id="gravure" name="gravure" value="oui">
+                <label for="gravure">Gravure personnalisee</label><br><br>
+
+                <button type="submit">Ajouter au panier</button>
+            </form>
+        </section>
+
+        <section id="avis">
+            <h2>Avis Clients</h2>
+
+            <article>
+                <strong>Jean Dupont</strong>
+                <p>Note : <strong>*****</strong>5/5</p>
+                <blockquote>
+                    Tres bon T-shirt, qualite exellente et livraison rapide.
+                    Je recommande vivement ce produit ! <br>
+                    
+                    <cite>Jean Dupont</cite>
+                </blockquote>
+                <p>Publie le : 28 Mars 2026</p>
+            </article>
+            <article>
+                <strong>Roi-V</strong>
+                <p>Note : <strong>*****</strong>5/5</p>
+                <blockquote>
+                    Bonne qualite mais la taille est un peu grande.
+                    Je conseille de prendre une taille en dessous. <br>
+                    
+                    <cite>ROI-V</cite>
+                    <p>Publie le : 28 Mars 2026</p>
+                </blockquote>
+            </article>
+
+            <article>
+                    <strong>ABDEL FADIL</strong>
+                    <p>Note : <strong>*****</strong>5/5</p>
+                    <blockquote>
+                        Parfait ! Le tissus est doux et confortable.
+                        Je vais en commander d'autres couleurs. <br>
+                    
+                        <cite>ABDEL FADIL</cite>
+                    </blockquote>
+                    <p>Publie le : 28 Mars 2026</p>
+            </article>
+        </section>
+</body>
+</html>
