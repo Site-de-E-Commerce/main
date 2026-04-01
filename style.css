@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: burlywood;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: #0066cc;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: bold;
+    
+}
+#caracteristique{
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgb( 0 0 0 1)
+}
+#caracteristique h2{
+    color: #0066cc;
+    border-bottom: 3px solid #0066cc;
+    padding-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* border-collapse: collapse : rend le tableau en ligne droite */
+    margin-top: 60px;
+}
+thead{
+    background-color: #0066cc;
+    color: #ffffff;
+}
+th{
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 20px;
+}
+td{
+    padding: 10px 15px;
+    border-bottom: 1px solid #dddd;
+    font-size: 15px;
+    color: #333333;
+}
+#achat{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 20px 5px rgba(0 , 0 , 0 , 0.1);
+}
+#achat h2{
+    color: #0066cc;
+    border-bottom: 3px solid #0066cc;
+    padding-bottom: 16px;
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+}
+input[type="number"],
+select{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+#avis {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0 , 0 , 0 , 0.1);
+}
+#avis h2{
+    color: #0066cc;
+    border-bottom: 3px solid #ff6600;
+    padding-bottom: 20px;
+
+}
+#avis article{
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+#avis article strong{
+    color: #0066cc;
+    font-size: 18px;
+}
+#avis blockquote{
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-left: 4px solid #ff6600;
+    background-color: #fff8f3;
+    font-style: italic;
+    color: #555555;
+}
+#avis cite{
+    color: #ff6600;
+    font-style: normal;
+    font-weight: bold;
+}
